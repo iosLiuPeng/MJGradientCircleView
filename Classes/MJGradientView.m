@@ -133,13 +133,11 @@
 - (void)setArrColors:(NSArray<UIColor *> *)arrColors
 {
     _arrColors = arrColors;
-    [self configColors];
 }
 
 - (void)setArrLocations:(NSArray<NSNumber *> *)arrLocations
 {
     _arrLocations = arrLocations;
-    [self configColors];
 }
 
 @end
